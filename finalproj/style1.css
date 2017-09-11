@@ -158,6 +158,12 @@ font-style: normal;
     box-sizing: border-box;
 }
 
+.getstarted:hover {
+	background-color: gray;
+	
+}
+
+
 .getstarted span {
 	color: white;
 	font-size: 20px;
@@ -241,11 +247,12 @@ font-style: normal;
 }
 .s6text {
 	color: white;
-	font-size: 55px;
+	font-size: 65px;
 	}
 
 .s6text1 {
 	color:gray;
+	margin-top: 25px;
 
 }
 
@@ -256,6 +263,11 @@ font-style: normal;
 .s6button-block{
 	margin-top: 120px;
 }
+
+.s6button-block:hover {
+	color: pink;
+}
+
 
 .section7 {
 	width: 100%;
@@ -346,6 +358,16 @@ line-height:20px;
 	    width: 277px;
 	    display: inline-block;
 }
+.mta {
+	display: inline-block;
+}
+
+.mta1 {
+	display: none;
+	background-color: yellow;
+}
+
+
 
 .s7img2 {
 	margin-left: 120px;
@@ -414,6 +436,7 @@ line-height:20px;
 .s8block {
 	height: 434px;
 	width: 300px;
+	    padding-top: 30px;
 }
 .s8block:hover {
 	background-color: black;
@@ -488,6 +511,10 @@ line-height:20px;
 	font-weight: bold;
 }
 
+.s9text:hover {
+	color:gray;
+}
+
 .s9span {
 	margin-left: 274px;
 }
@@ -516,3 +543,20 @@ line-height:20px;
 
 }
 
+.craft {
+	padding-top: 15px;
+	padding-left: 115px;
+}
+
+.wwwtext {
+	color: gray;
+	margin-top: 40px;
+}
+
+.s9img1 {
+	margin:5px;
+}
+
+.s9img {
+	padding-left: 25px;
+}
