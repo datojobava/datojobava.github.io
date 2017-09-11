@@ -186,6 +186,13 @@ font-style: normal;
 
 }
 
+.s4text:hover {
+	font-size: 120px;
+	color: gray;
+}
+
+
+
 .s4text1 {
 	font-size: 22px;
     margin-top: 65px;
@@ -221,8 +228,13 @@ font-style: normal;
 	}
 
 .s5block {
-	margin-right: 145px;
+	margin-right: 110px;
+
 }
+.s5block1 {
+	margin-right: 70px;
+}
+
 
 .s5learn {
 	margin-top: 45px;
