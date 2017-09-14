@@ -31,7 +31,7 @@
 .nav ul li {
 	display: inline-block;
 	font-size: 12px;
-	
+	transition: 2s;
 	padding: 10px;
 }
 .nav ul li:hover{
@@ -181,6 +181,7 @@ font-style: normal;
 .s4text {
 	font-size: 80px;
 	margin-top: 122px;
+	transition: 2s;
     display: flex;
     justify-content: center;
 
@@ -243,7 +244,7 @@ font-style: normal;
 
 .section6 {
 
-	background-image: url(ipad.jpg);
+	background-image: url(img/ipad.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color:#f5f6f8; 
@@ -428,12 +429,16 @@ line-height:20px;
 
 .join {
 	width: 100%;
-	
+	transition: 2s;
 	background-color: white;
 	font-size: 99px;
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 80px;
+}
+
+.join:hover {
+	background-color: blue;
 }
 
 .section8 {
@@ -452,6 +457,7 @@ line-height:20px;
 }
 .s8block:hover {
 	background-color: black;
+	transition: 3s;
 }
 .s8block:hover .s8div1{
 	color:white;
@@ -521,10 +527,12 @@ line-height:20px;
 	font-size: 100px;
 	text-align: center;
 	font-weight: bold;
+	transition: 1s;
 }
 
 .s9text:hover {
 	color:gray;
+
 }
 
 .s9span {
@@ -561,7 +569,7 @@ line-height:20px;
 }
 
 .wwwtext {
-	color: gray;
+	color: white;
 	margin-top: 40px;
 }
 
