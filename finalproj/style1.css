@@ -1,4 +1,8 @@
+
+
+
 .section1 {
+
 	width: 100%;
 	background-image: url(img/fjord1.jpg);
 	background-size: contain;
@@ -25,7 +29,8 @@
 
 .nav {
  float:right;
- display: inline-block;
+ display: flex;
+ justify-content: justify;
 }
 
 .nav ul li {
@@ -40,6 +45,28 @@
 }
 .nav ul li:hover a{
 	color:white;
+}
+
+.burger {
+	width: 40px;
+	height: 40px;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.burger .row {
+	width: 20px;
+	height: 2px;
+	background-color: black;
+	display: inline-block;
+	margin-bottom:3px;
+
+}
+
+.row1 {
+	margin-top: -5px;
 }
 
 .getsome {
@@ -74,6 +101,19 @@ font-style: normal;
 	margin-top: 12px;
 	line-height: 22px;
 }
+
+.span3 {
+	text-align: center;
+	margin-bottom: 12px;
+	margin-top: 12px;
+	line-height: 22px;
+	transition: 1s;
+}
+
+.span3:hover {
+	font-size: 20px;
+}
+
 .img {
 	margin-bottom: 10px;
 }
@@ -156,10 +196,13 @@ font-style: normal;
     background-color: black;
     padding-top: 20px;
     box-sizing: border-box;
+    transition: 1s;
 }
 
 .getstarted:hover {
+	font-size: 30px;
 	background-color: gray;
+
 	
 }
 
@@ -223,6 +266,10 @@ font-style: normal;
     margin-bottom: 27px;
 }
 
+.s5learn {
+	
+}
+
 .s5flex {
 	display: flex;
 	justify-content: center;
@@ -239,7 +286,13 @@ font-style: normal;
 
 .s5learn {
 	margin-top: 45px;
+	transition: 1s;
 }
+
+.s5learn:hover {
+	font-size: 20px;
+}
+
 
 
 .section6 {
@@ -266,6 +319,7 @@ font-style: normal;
 .s6text1 {
 	color:gray;
 	margin-top: 25px;
+	line-height: 30px;
 
 }
 
@@ -338,11 +392,30 @@ line-height:20px;
 	background-color: white;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	width: 50%;
+	width: 30%;
 	align-content: center;
 	margin:20px;
 }
 
+.s7boxdiv1 {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 30%;
+	align-content: center;
+	margin:20px;
+	
+}
+
+.s7boxdiv2 {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 30%;
+	align-content: center;
+	margin:20px;
+
+}
 .s7boxtext {
 	font-size: 50px;
 	text-align: center;
@@ -356,7 +429,10 @@ line-height:20px;
 
 .s7flex1 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	position: relative;
+	box-sizing: border-box;
+
 }
 
 .doit{
@@ -364,6 +440,7 @@ line-height:20px;
 	 font-weight: bold;
 	 margin-top:90px;
 	 font-size: 20px;
+	 animation: mymove 5s infinite;
 }
 
 .s7img1 {
@@ -371,6 +448,9 @@ line-height:20px;
 	    width: 277px;
 	    display: inline-block;
 }
+
+
+
 .mta {
 	display: inline-block;
 }
@@ -438,7 +518,8 @@ line-height:20px;
 }
 
 .join:hover {
-	background-color: blue;
+	background-color: #B8F1DF;
+	color
 }
 
 .section8 {
